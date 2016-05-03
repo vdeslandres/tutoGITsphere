@@ -5,7 +5,7 @@ class Sphere(object):
     def __init__(self, radius):
         # *** STEP 1 ***
         # uncomment the following line
-        self.radius = radius
+        #  self.radius = radius
 
     # *** STEP 2 ***
     # uncomment the 2 following lines
@@ -15,16 +15,12 @@ class Sphere(object):
     def surface(self):
         # *** STEP 3 ***
         # uncomment the following line
-        return 4.0 * 3.1416 * self.radius ** 2
+        # return 4.0 * 3.1416 * self.radius ** 2
 
     def volume(self):
         # *** STEP 4 ***
         # uncomment the following line
-<<<<<<< HEAD
-        return 4.0/3.0 * 3.1416 * self.radius ** 3
-=======
-        return 4/3 * 3.1416 * self.radius ** 3
->>>>>>> refs/remotes/origin/master
+        # return 4/3 * 3.1416 * self.radius ** 3
 
     def diameter(self):
         # *** STEP 5 ***
